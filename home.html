@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matching Game</title>
+
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="glyphicon glyphicon-star"></i></li>
+                <li><i class="glyphicon glyphicon-star"></i></li>
+                <li><i class="glyphicon glyphicon-star"></i></li>
+            </ul>
+
+            <span class="moves">0</span> Moves
+
+            <div class="restart" onclick="run()">
+                <i class="glyphicon glyphicon-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck" id="deck"></ul>
+
+    </div>
+
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
